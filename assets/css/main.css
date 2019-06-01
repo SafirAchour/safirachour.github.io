@@ -4211,17 +4211,6 @@ body.is-touch #banner {
 		padding: 0;
 	}
 
-	/* Project Buttons */
-	.Pactions a {
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-
-	#five a {
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-
 }
 
 /* Large TechSkills Tools Exception */
@@ -4231,11 +4220,15 @@ body.is-touch #banner {
 	/* TechSkills */
 
 	.desTools {
-		margin-left: 90px;
+		margin-left: 110px;
 	}
 
 	.devTools {
 		margin-left: 55px;
+	}
+
+	.cmsTools {
+		margin-left: 5.7rem;
 	}
 
 	#devtools:hover {
@@ -4243,11 +4236,15 @@ body.is-touch #banner {
 	}
 
 	#destools:hover {
-		transform: scale(1.2);
+		transform: scale(1.4);
+	}
+
+	#cmstools:hover {
+		transform: scale(1.4);
 	}
 
 	.Picons:hover {
-		transform: scale(1.5);
+		transform: scale(1.6);
 		color: #e44c65;
 
 	}
@@ -4259,6 +4256,7 @@ body.is-touch #banner {
 /* TechSkills Devtools*/
 #devtools {
 	height: 230px;
+	margin-bottom: 30px;
 	transition-duration: 0.3s;
 }
 
@@ -4267,11 +4265,22 @@ body.is-touch #banner {
 }
 
 #destools {
-	height: 160px;
+	height: 220px;
+	margin-top: 10px;
 	transition-duration: 0.3s;
 }
 
 .desTools {
+	margin-bottom: 2.5rem;
+}
+
+#cmstools {
+	height: 165px;
+	margin-top: 20px;
+	transition-duration: 0.3s;
+}
+
+.cmsTools {
 	margin-bottom: 2.5rem;
 }
 
